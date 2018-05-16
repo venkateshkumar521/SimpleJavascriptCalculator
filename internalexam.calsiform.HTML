@@ -1,0 +1,31 @@
+<html>
+<head>
+<script type="text/javascript">
+function display(saber)
+{
+calcform.txt1.value=calcform.txt1.value+saber;
+}
+</script>
+</head>
+
+<form name="calcform">
+<input type="text" name="txt1">
+<input type="reset" value="C"> <br>
+<input type="button" name="btn7" value="7" onclick=display(btn7.value)>
+<input type="button" name="btn8" value="8" onclick=display(btn8.value)>
+<input type="button" name="btn9" value="9" onclick=display(btn9.value)>
+<input type="button" name="btnadd" value="+" onclick=display(btnadd.value)><br>
+<input type="button" name="btn4" value="4" onclick=display(btn4.value)>
+<input type="button" name="btn5" value="5" onclick=display(btn5.value)>
+<input type="button" name="btn6" value="6" onclick=display(btn6.value)>
+<input type="button" name="btnsub" value="-" onclick=display(btnsub.value)><br>
+<input type="button" name="btn1" value="1" onclick=display(btn1.value)>
+<input type="button" name="btn2" value="2" onclick=display(btn2.value)>
+<input type="button" name="btn3" value="3" onclick=display(btn3.value)>
+<input type="button" name="btnmul" value="*" onclick=display(btnmul.value)><br>
+<input type="button" name="btndot" value="." onclick=display(btndot.value)>
+<input type="button" name="btnzero" value="0" onclick=display(btnzero.value)>
+<input type="button" name="btnequ" value="=" onclick="txt1.value=eval(txt1.value)">
+<input type="button" name="btndiv" value="/" onclick=display(btndiv.value)>
+</form>
+</html>
